@@ -2,7 +2,6 @@ html {
     background-color: #DAE0F2;
   }
 
-
 .text{
     font-size: 16px;
     line-height: 2;
@@ -20,9 +19,6 @@ html {
     list-style-position: inside;             
     text-align: left; 
 }
-
-
-
 
 h1 {
     margin: 0;
