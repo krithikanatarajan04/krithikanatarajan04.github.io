@@ -1,0 +1,43 @@
+html {
+    background-color: #DAE0F2;
+  }
+
+
+.text{
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 1px; 
+    color: black;
+    width: 600px;
+    border: 1px solid black;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: rgba(239, 233, 231, 0.3);
+    list-style-position: inside;             
+    text-align: left; 
+}
+
+
+
+
+h1 {
+    margin: 0;
+    padding-top: 5px;
+    padding-bottom: 20px;
+    font-size: 60px;
+    text-align: center;
+    text-shadow: 2px 2px 3px black;
+    color: #111344;
+}
+
+#lionsHeadImage {
+    display: block;       
+    margin: 0 auto;
+    width: 15%;           
+    border: 3px solid white;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,30 @@
+@font-face {
+    font-family: 'AbrilFatFace'; 
+    src: url('Abril_Fatface/AbrilFatface-Regular.ttf') format('truetype');
+    font-weight: normal; 
+    font-style: normal; 
+  }
+
+@font-face {
+    font-family: 'PlayfairDisplay'; 
+    src: url('Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf') format('truetype');
+    font-weight: normal; 
+    font-style: normal; 
+} 
+
+body {
+    font-family: 'PlayfairDisplay', serif; /* Default font for the body */
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'AbrilFatFace', sans-serif; /* Font for headers */
+  }
+
+p {
+    font-family: 'PlayfairDisplay', serif; /* Font for paragraphs */
+}
+
+
+
+
