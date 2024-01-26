@@ -6,10 +6,10 @@ myImage.onclick = () => {
     if (mySrc === "images/DS 4200 Image 1.jpeg") {
       myImage.setAttribute("src", "images/DS 4200 Image 2.jpeg");
     } 
-    else if (mySrc === "images/DS 4200 Image 2.jpg") {
+    else if (mySrc === "images/DS 4200 Image 2.jpeg") {
       myImage.setAttribute("src", "images/DS 4200 Image 3.jpeg");
     }
-    else if (mySrc === "images/DS 4200 Image 3.jpg") {
+    else if (mySrc === "images/DS 4200 Image 3.jpeg") {
       myImage.setAttribute("src", "images/DS 4200 Image 4.jpeg");
     }
     else if (mySrc === "images/DS 4200 Image 4.jpeg") {
