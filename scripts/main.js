@@ -20,27 +20,17 @@ myImage.onclick = () => {
     }
   };
 
-  
-let myButton = document.querySelector("button");
-let myHeading = document.querySelector("h1");
+  let myButton = document.querySelector("button");
+  let myHeading = document.querySelector("h2");
 
-function setUserName() {
+  function setUserName() {
     const myName = prompt("Please enter your name.");
     if (!myName) {
       setUserName();
     } else {
       localStorage.setItem("name", myName);
-      myHeading.textContent = `Mozilla is cool, ${myName}`;
+      myHeading.textContent = `Welcome ${myName}!`;
     }
   }
 
-  if (!localStorage.getItem("name")) {
-    setUserName();
-  } else {
-    const storedName = localStorage.getItem("name");
-    myHeading.textContent = `Mozilla is cool, ${storedName}`;
-  }
-
-  myButton.onclick = () => {
-    setUserName();
-  };
+  myButton.addEventListener('click', setUserName);

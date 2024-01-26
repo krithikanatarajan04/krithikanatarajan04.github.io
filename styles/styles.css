@@ -2,11 +2,8 @@ html {
     background-color: #DAE0F2;
   }
 
-.text{
-    font-size: 16px;
-    line-height: 2;
-    letter-spacing: 1px; 
-    color: black;
+
+.background-box{
     width: 600px;
     border: 1px solid black;
     margin: 0 auto;
@@ -16,6 +13,13 @@ html {
     padding-top: 5px;
     padding-bottom: 5px;
     background-color: rgba(239, 233, 231, 0.3);
+}
+
+.text{
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 1px; 
+    color: black;
     list-style-position: inside;             
     text-align: left; 
 }
@@ -29,11 +33,39 @@ h1 {
     text-shadow: 2px 2px 3px black;
     color: #111344;
 }
+h2 {
+    margin: 0;
+    padding-top: 5px;
+    padding-bottom: 20px;
+    font-size: 40px;
+    text-align: center;
+    text-shadow: 2px 2px 3px black;
+    color: #111344;
+}
 
-#lionsHeadImage {
+
+#SouthAfricaImages {
     display: block;       
     margin: 0 auto;
-    width: 15%;           
+    width: 50%;           
     border: 3px solid white;
-    margin-bottom: 20px;
 }
+
+#changeUser {
+    position: absolute; 
+    top: 0;
+    left: 0;
+    margin: 10px; 
+    font-size: 20px;
+    color: #111344;
+    border: 3;
+    border-radius: 5px; 
+    padding: 10px 20px;
+    cursor: pointer; 
+    background-color: rgba(239, 233, 231, 0.3);
+    transition: background-color 0.3s ease;
+  }
+
+  #changeUser:hover {
+    background-color: darkgray;
+  }

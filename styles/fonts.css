@@ -17,13 +17,15 @@ body {
 }
 
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, #changeUser {
     font-family: 'AbrilFatFace', sans-serif; /* Font for headers */
   }
 
 p {
     font-family: 'PlayfairDisplay', serif; /* Font for paragraphs */
 }
+
+
 
 
 
